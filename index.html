@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/1.png" alt="Profile illustration of a web developer">
+            <p>
+                I am a BIT student currently studying at MIT. I have so far learned programming, web development,
+                database management and networking. I enjoy building practical projects and improving my technical
+                skills along the way.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <dl>
+                <dt>HTML5</dt>
+                <dd>Web design and content.</dd>
+                <dt>CSS</dt>
+                <dd>Basic knowledge of styling and responsive layouts.</dd>
+                <dt>Programming</dt>
+                <dd>Experience in C and fundamental programming concepts.</dd>
+                <dt>Databases</dt>
+                <dd>Knowledge of SQL, relational databases and database design.</dd>
+                <dt>Networking</dt>
+                <dd>Understanding of IP addressing, routing, VLANs and network security.</dd>
+            </dl>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Supermarket Billing System</h3>
+                <p>
+                    A programming project designed to manage products, calculate customer
+                    bills, and organize basic customer information.
+                </p>
+                <p><a href="https://github.com/example/supermarket-billing-system">View repository</a></p>
+            </article>
+            <article>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A responsive HTML5 and CSS portfolio that presents my background,
+                    technical skills, projects, and contact information.
+                </p>
+                <p><a href="https://github.com/example/personal-portfolio">View repository</a></p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </p>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PanishNepal Portfolio</p>
+    </footer>
+</body>
+
+</html>
